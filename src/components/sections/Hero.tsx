@@ -68,7 +68,7 @@ export function Hero() {
               ))}
             </div>
 
-            <div className="glass-card p-6 rounded-3xl max-w-md border border-gold-primary/20 relative overflow-hidden group">
+            <div className="glass-card p-5 sm:p-6 rounded-3xl w-full max-w-full sm:max-w-md border border-gold-primary/20 relative overflow-hidden group">
               <div className="absolute inset-0 bg-gradient-to-r from-gold-primary/0 via-gold-primary/5 to-gold-primary/0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000" />
               
               <div className="flex items-end space-x-4 mb-6">

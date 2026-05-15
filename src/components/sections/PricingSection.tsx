@@ -100,7 +100,7 @@ export function PricingSection() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="relative order-2 h-full"
           >
-            <div className="h-full relative glass-card bg-card/90 rounded-[2rem] p-8 border border-white/10 flex flex-col overflow-hidden hover:border-gold-primary/30 transition-colors duration-300">
+            <div className="h-full relative glass-card bg-card/90 rounded-[2rem] p-6 sm:p-8 border border-white/10 flex flex-col overflow-hidden hover:border-gold-primary/30 transition-colors duration-300">
               <div className="absolute -top-6 -right-6 w-32 h-32 bg-gold-soft rotate-45 transform origin-bottom-left flex items-end justify-center pb-2">
                 <span className="text-black font-bold text-xs tracking-wider uppercase">{t.pricing.comboThree.save}</span>
               </div>
@@ -150,7 +150,7 @@ export function PricingSection() {
             {/* Animated Border */}
             <div className="absolute -inset-[2px] bg-gradient-to-r from-gold-primary via-gold-soft to-gold-primary rounded-[2rem] opacity-50 blur-sm animate-pulse" />
             
-            <div className="h-full relative glass-card bg-card/90 rounded-[2rem] p-8 md:p-10 border-2 border-gold-primary/50 flex flex-col overflow-hidden">
+            <div className="h-full relative glass-card bg-card/90 rounded-[2rem] p-6 sm:p-8 md:p-10 border-2 border-gold-primary/50 flex flex-col overflow-hidden">
               {/* Corner Badge */}
               <div className="absolute -top-6 -right-6 w-32 h-32 bg-danger rotate-45 transform origin-bottom-left flex items-end justify-center pb-2">
                 <span className="text-white font-bold text-sm tracking-wider uppercase">{t.pricing.comboAll.save}</span>

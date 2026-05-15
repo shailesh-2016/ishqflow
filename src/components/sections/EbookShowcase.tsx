@@ -4,7 +4,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useLanguage } from "@/context/LanguageContext";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
+import { ArrowRight } from "lucide-react";
 
 export function EbookShowcase() {
   const { t } = useLanguage();
@@ -40,6 +41,12 @@ export function EbookShowcase() {
           >
             {t.ebookShowcase.subtitle}
           </motion.p>
+        </div>
+
+        {/* Mobile Swipe Indicator */}
+        <div className="md:hidden flex items-center justify-end text-gold-soft text-sm font-medium mb-4 pr-4 animate-pulse">
+          <span>{t.ebookShowcase.swipe}</span>
+          <ArrowRight className="w-4 h-4 ml-2" />
         </div>
 
         {/* Desktop Grid & Mobile Carousel Container */}
