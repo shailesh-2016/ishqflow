@@ -1,0 +1,159 @@
+{
+  "navbar": {
+    "home": "Home",
+    "whatsInside": "What's Inside",
+    "benefits": "Benefits",
+    "testimonials": "Testimonials",
+    "faq": "FAQ",
+    "cta": "Get It Now",
+    "myBooks": "My Books",
+    "login": "Login"
+  },
+  "hero": {
+    "tagline": "Meaningful Conversations. Natural Connection.",
+    "titleLine1": "Stop Getting",
+    "titleLine2": "Ignored in Chats",
+    "subtitle": "Learn confident texting, engaging conversations, and meaningful communication naturally.",
+    "features": {
+      "betterConvos": "Better Conversations",
+      "strongConnections": "Strong Connections",
+      "moreConfidence": "More Confidence"
+    },
+    "pricing": {
+      "oldPrice": "₹499",
+      "newPrice": "₹199",
+      "only": "Only",
+      "cta": "Get Instant Access",
+      "trust1": "Instant Download",
+      "trust2": "Secure Payment",
+      "trust3": "Mobile Friendly"
+    }
+  },
+  "problem": {
+    "title1": "Do You Face These",
+    "title2": "Problems?",
+    "subtitle": "If you're struggling to keep their attention, you're not alone. Most people make the same critical texting mistakes without even realizing it.",
+    "items": [
+      { "title": "Getting Left on Read", "desc": "Sending a message and waiting hours, only to realize they saw it and ignored it." },
+      { "title": "Conversations Die Quickly", "desc": "The chat starts strong but quickly becomes dry, boring, and awkward." },
+      { "title": "Don't Know What to Text", "desc": "Staring at the screen, overthinking every single word, afraid of saying the wrong thing." },
+      { "title": "Hard to Create Attraction", "desc": "You're stuck in the friendzone or can't build romantic tension naturally over text." }
+    ]
+  },
+  "ebookShowcase": {
+    "title1": "What's",
+    "title2": "Inside",
+    "subtitle": "6 ultra-premium guides to transform your digital communication and dating life.",
+    "buyNow": "Buy Now for",
+    "currency": "₹",
+    "books": [
+      { "title": "99+ Flirty Texts To Make Her Blush", "desc": "Learn engaging conversation starters", "price": "49" },
+      { "title": "Confident Conversations", "desc": "Build confident communication naturally", "price": "49" },
+      { "title": "Friendship To Forever", "desc": "Keep chats interesting effortlessly", "price": "49" },
+      { "title": "Effortless Texting Secrets", "desc": "Improve emotional connection", "price": "49" },
+      { "title": "Build Strong Attraction", "desc": "Avoid dry conversations", "price": "49" },
+      { "title": "Kamasutra", "desc": "The ultimate guide to intimacy and passionate connection", "price": "49" }
+    ]
+  },
+  "benefits": {
+    "title1": "Imagine Texting with",
+    "title2": "Zero Anxiety",
+    "items": [
+      { "title": "Better Communication Confidence", "desc": "Never second-guess what to send again. Develop a natural intuition for exactly what to say in any situation." },
+      { "title": "More Engaging Conversations", "desc": "Transform boring 'how are you' chats into deep, exciting, and memorable exchanges." },
+      { "title": "Less Awkward Texting", "desc": "Eliminate the anxiety of double texting, ghosting, or sounding desperate." },
+      { "title": "Stronger Emotional Connection", "desc": "Build genuine attraction and intimacy before you even meet in person." }
+    ]
+  },
+  "midPageBreak": {
+    "title": "Unlock The Secrets Of Connection",
+    "subtitle": "Join thousands of others who transformed their social life with these exact strategies."
+  },
+  "transformation": {
+    "title1": "The",
+    "title2": "Transformation",
+    "before": "Before ISHQFLOW",
+    "after": "After ISHQFLOW",
+    "beforeItems": [
+      "Overthinking every single message",
+      "Conversations feeling like an interview",
+      "Always texting first",
+      "Getting one-word replies"
+    ],
+    "afterItems": [
+      "Knowing exactly what to say instantly",
+      "Fun, playful, and flirty banter",
+      "They initiate conversations with you",
+      "Long, enthusiastic, invested responses"
+    ]
+  },
+  "testimonials": {
+    "title1": "Real Results from",
+    "title2": "Real People",
+    "items": [
+      { "name": "Alex M.", "city": "Mumbai", "feedback": "I used to get ghosted constantly. Since reading the Deep Connections ebook, I've had 3 dates this week. The frameworks actually work." },
+      { "name": "Rahul S.", "city": "Delhi", "feedback": "The Texting Chemistry section is mind-blowing. It completely changed how I approach flirting. It feels so natural now without being creepy." },
+      { "name": "Karan V.", "city": "Bangalore", "feedback": "Best ₹199 I've ever spent. The conversation starters alone are worth 10x the price. I'm finally confident when I text." }
+    ]
+  },
+  "pricing": {
+    "trust1": "Instant PDF Access",
+    "trust2": "Mobile Friendly",
+    "trust3": "Download Immediately",
+    "offerEnds": "Offer Ends In",
+    "title1": "Choose Your",
+    "title2": "Bundle",
+    "subtitle": "Start transforming your communication skills right now.",
+    "currency": "₹",
+    "comboAll": {
+      "title": "All 6 Books",
+      "oldPrice": "₹499",
+      "newPrice": "199",
+      "save": "Save 60%",
+      "includes": [
+        "All 6 Premium Ebooks",
+        "Lifetime Updates Included",
+        "Highest Value"
+      ],
+      "cta": "GET ALL BOOKS →"
+    },
+    "comboThree": {
+      "title": "Any 3 Books",
+      "oldPrice": "₹249",
+      "newPrice": "129",
+      "save": "Save 48%",
+      "includes": [
+        "Choose any 3 Ebooks",
+        "Lifetime Updates Included",
+        "Perfect for Starters"
+      ],
+      "cta": "GET 3 BOOKS →"
+    },
+    "guarantee": "30-Day Guarantee",
+    "secure": "Secure 256-bit Checkout"
+  },
+  "faq": {
+    "title1": "Frequently Asked",
+    "title2": "Questions",
+    "items": [
+      { "q": "How do I receive the ebooks?", "a": "Immediately after your purchase is successful, you will be redirected to a download page. You will also receive an email with secure download links for all 6 ebooks in PDF format." },
+      { "q": "Is this beginner friendly?", "a": "Absolutely. The bundle is designed to take you from a complete beginner who doesn't know what to text, to a confident communicator. It builds up concepts step-by-step with real examples." },
+      { "q": "Are the ebooks mobile accessible?", "a": "Yes! All ebooks are delivered in high-quality PDF format, which can be easily read on any smartphone, tablet, or computer. You can read them on the go." },
+      { "q": "Is there lifetime access?", "a": "Yes, once you download the bundle, it's yours forever. Plus, you get lifetime access to any future updates we make to the books." },
+      { "q": "What if it doesn't work for me?", "a": "We offer a 30-day money-back guarantee. If you read the books, apply the techniques, and don't see an improvement in your conversations, simply email us for a full refund." }
+    ]
+  },
+  "footer": {
+    "description": "Master the art of texting, build deep connections, and transform your communication skills with our premium guides.",
+    "quickLinks": "Quick Links",
+    "legal": "Legal",
+    "links": {
+      "tos": "Terms of Service",
+      "privacy": "Privacy Policy",
+      "refund": "Refund Policy",
+      "contact": "Contact Us"
+    },
+    "copyright": "© 2026 ISHQFLOW. All rights reserved.",
+    "tagline": "Designed for better conversations."
+  }
+}
