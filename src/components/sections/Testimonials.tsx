@@ -29,7 +29,7 @@ export function Testimonials() {
   const prev = () => setCurrentIndex((prev) => (prev - 1 + testimonials.length) % testimonials.length);
 
   return (
-    <section id="testimonials" className="py-24 relative">
+    <section id="testimonials" className="py-12 sm:py-24 relative overflow-hidden">
       <div className="absolute top-1/2 left-0 w-[400px] h-[400px] bg-gold-primary/5 rounded-full blur-[100px] -z-10" />
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -38,7 +38,7 @@ export function Testimonials() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl sm:text-5xl font-display font-bold mb-6"
+            className="text-3xl sm:text-4xl md:text-5xl font-display font-bold mb-6"
           >
             {t.testimonials.title1} <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-gold-soft to-gold-primary text-glow">

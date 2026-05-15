@@ -13,7 +13,7 @@ export function TransformationSection() {
   const afters = t.transformation.afterItems;
 
   return (
-    <section className="py-24 relative overflow-hidden">
+    <section className="py-12 sm:py-24 relative overflow-hidden">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] bg-success/5 rounded-full blur-[100px] -z-10" />
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -22,7 +22,7 @@ export function TransformationSection() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl sm:text-5xl font-display font-bold mb-6"
+            className="text-3xl sm:text-4xl md:text-5xl font-display font-bold mb-6"
           >
             {t.transformation.title1} <span className="text-success text-glow">{t.transformation.title2}</span>
           </motion.h2>

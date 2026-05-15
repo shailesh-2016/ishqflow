@@ -64,7 +64,7 @@ export function Footer() {
             <ul className="space-y-3">
               <li><a href="#" className="text-text-secondary hover:text-white transition-colors text-sm">Terms of Service</a></li>
               <li><a href="#" className="text-text-secondary hover:text-white transition-colors text-sm">Privacy Policy</a></li>
-              <li><a href="#" className="text-text-secondary hover:text-white transition-colors text-sm">Refund Policy</a></li>
+              <li><a href="#" className="text-text-secondary hover:text-white transition-colors text-sm">Non-Refundable Policy</a></li>
               <li><a href="#" className="text-text-secondary hover:text-white transition-colors text-sm">Contact Us</a></li>
             </ul>
           </div>

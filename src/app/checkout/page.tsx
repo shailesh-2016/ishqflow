@@ -22,6 +22,7 @@ function CheckoutContent() {
   const [email, setEmail] = useState("");
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
+  const [acceptedTerms, setAcceptedTerms] = useState(false);
 
   useEffect(() => {
     if (!authLoading && !user) {
@@ -46,7 +47,7 @@ function CheckoutContent() {
 
   const handlePayment = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!name || !email) return;
+    if (!name || !email || !acceptedTerms) return;
 
     setLoading(true);
 
@@ -274,11 +275,29 @@ function CheckoutContent() {
                   />
                 </div>
 
-                <div className="pt-6">
+                <div className="pt-2">
+                  <label className="flex items-start space-x-3 cursor-pointer group">
+                    <div className="relative flex items-center justify-center mt-0.5">
+                      <input 
+                        type="checkbox" 
+                        required
+                        checked={acceptedTerms}
+                        onChange={(e) => setAcceptedTerms(e.target.checked)}
+                        className="peer appearance-none w-5 h-5 border border-white/20 rounded bg-white/5 checked:bg-gold-primary checked:border-gold-primary transition-all cursor-pointer"
+                      />
+                      <CheckCircle2 className="w-3 h-3 text-black absolute opacity-0 peer-checked:opacity-100 transition-opacity pointer-events-none" />
+                    </div>
+                    <span className="text-sm text-text-secondary group-hover:text-white/90 transition-colors">
+                      I understand and agree that <strong className="text-white">payments are strictly non-refundable under any circumstances</strong>, as this is a digital product.
+                    </span>
+                  </label>
+                </div>
+
+                <div className="pt-2">
                   <button
                     type="submit"
-                    disabled={loading}
-                    className="w-full py-5 rounded-2xl bg-gradient-to-r from-gold-soft via-gold-primary to-gold-soft text-black font-display font-bold text-xl hover:shadow-[0_0_40px_rgba(212,175,55,0.4)] hover:scale-[1.02] active:scale-[0.98] transition-all flex justify-center items-center group overflow-hidden relative"
+                    disabled={loading || !acceptedTerms}
+                    className="w-full py-5 rounded-2xl bg-gradient-to-r from-gold-soft via-gold-primary to-gold-soft text-black font-display font-bold text-xl hover:shadow-[0_0_40px_rgba(212,175,55,0.4)] hover:scale-[1.02] active:scale-[0.98] transition-all flex justify-center items-center group overflow-hidden relative disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100 disabled:hover:shadow-none"
                   >
                     <div className="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 ease-in-out" />
                     {loading ? (
@@ -287,9 +306,6 @@ function CheckoutContent() {
                       `Complete Payment • ₹${amount}`
                     )}
                   </button>
-                  <p className="text-center text-text-secondary text-sm mt-6">
-                    By completing this purchase, you agree to our Terms of Service.
-                  </p>
                 </div>
               </form>
 

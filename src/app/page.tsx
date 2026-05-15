@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/sections/Navbar";
 import { Hero } from "@/components/sections/Hero";
+import { RomanticBanners } from "@/components/sections/RomanticBanners";
 import { ProblemSection } from "@/components/sections/ProblemSection";
 import { EbookShowcase } from "@/components/sections/EbookShowcase";
 import { BenefitsSection } from "@/components/sections/BenefitsSection";
@@ -24,6 +25,7 @@ export default function Home() {
 
       <Navbar />
       <Hero />
+      <RomanticBanners />
       
       {/* Elegant Gold Divider */}
       <div className="w-full h-px bg-gradient-to-r from-transparent via-gold-primary/30 to-transparent" />

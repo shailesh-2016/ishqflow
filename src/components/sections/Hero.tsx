@@ -23,7 +23,7 @@ export function Hero() {
   ];
 
   return (
-    <section id="home" className="relative min-h-screen pt-32 pb-20 flex items-center overflow-hidden">
+    <section id="home" className="relative min-h-screen pt-28 pb-12 sm:pt-32 sm:pb-20 flex items-center overflow-hidden">
       {/* Background Gradients */}
       <div className="absolute top-1/4 left-0 w-[500px] h-[500px] bg-gold-primary/10 rounded-full blur-[120px] -z-10" />
       <div className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-danger/5 rounded-full blur-[150px] -z-10" />
@@ -46,7 +46,7 @@ export function Hero() {
             </div>
 
             <div className="space-y-4">
-              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-display font-bold leading-tight">
+              <h1 className="text-4xl sm:text-5xl lg:text-7xl font-display font-bold leading-tight">
                 {t.hero.titleLine1} <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-gold-soft to-gold-primary text-glow">
                   {t.hero.titleLine2}
@@ -105,13 +105,13 @@ export function Hero() {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.2 }}
-            className="relative h-[500px] lg:h-[600px] flex items-center justify-center perspective-[1200px]"
+            className="relative h-[350px] sm:h-[450px] lg:h-[600px] mt-8 lg:mt-0 flex items-center justify-center perspective-[1200px]"
           >
             {/* Spotlight effect */}
             <div className="absolute bottom-10 w-full h-40 bg-gradient-radial from-gold-primary/40 to-transparent blur-[60px] rounded-[100%] transform -rotate-12" />
             
             {/* Ebook Mockups */}
-            <div className="relative w-full h-full transform-style-3d rotate-y-[-15deg] rotate-x-[5deg]">
+            <div className="relative w-full h-full transform-style-3d rotate-y-[-15deg] rotate-x-[5deg] scale-75 sm:scale-100">
               
               {/* Book 3 (Left back) */}
               <motion.div 

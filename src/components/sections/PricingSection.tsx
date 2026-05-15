@@ -25,7 +25,7 @@ export function PricingSection() {
   }, []);
 
   return (
-    <section id="pricing" className="py-24 relative overflow-hidden">
+    <section id="pricing" className="py-12 sm:py-24 relative overflow-hidden">
       {/* Background Effects */}
       <div className="absolute inset-0 bg-gradient-to-b from-black via-gold-primary/5 to-black -z-20" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-[500px] bg-gold-primary/10 blur-[150px] -z-10 rounded-full" />
@@ -37,7 +37,7 @@ export function PricingSection() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl sm:text-5xl font-display font-bold mb-6"
+            className="text-3xl sm:text-4xl md:text-5xl font-display font-bold mb-6"
           >
             {t.pricing.title1} <span className="text-transparent bg-clip-text bg-gradient-to-r from-gold-soft to-gold-primary text-glow">{t.pricing.title2}</span>
           </motion.h2>

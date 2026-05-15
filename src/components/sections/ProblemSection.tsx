@@ -48,7 +48,7 @@ export function ProblemSection() {
   ];
 
   return (
-    <section className="py-24 relative">
+    <section className="py-12 sm:py-24 relative">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[500px] bg-danger/5 rounded-full blur-[120px] -z-10" />
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -57,7 +57,7 @@ export function ProblemSection() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl sm:text-5xl font-display font-bold mb-6"
+            className="text-3xl sm:text-4xl md:text-5xl font-display font-bold mb-6"
           >
             {t.problem.title1} <span className="text-danger">{t.problem.title2}</span>
           </motion.h2>

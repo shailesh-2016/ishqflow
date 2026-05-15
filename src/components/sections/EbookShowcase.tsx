@@ -18,7 +18,7 @@ export function EbookShowcase() {
   }));
 
   return (
-    <section id="ebooks" className="py-24 relative overflow-hidden">
+    <section id="ebooks" className="py-12 sm:py-24 relative overflow-hidden">
       <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-gold-primary/5 rounded-full blur-[150px] -z-10" />
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -27,7 +27,7 @@ export function EbookShowcase() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl sm:text-5xl font-display font-bold mb-6"
+            className="text-3xl sm:text-4xl md:text-5xl font-display font-bold mb-6"
           >
             {t.ebookShowcase.title1} <span className="text-transparent bg-clip-text bg-gradient-to-r from-gold-soft to-gold-primary text-glow">{t.ebookShowcase.title2}</span>
           </motion.h2>
